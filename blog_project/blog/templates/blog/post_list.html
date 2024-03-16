@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog de TI</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="bg-dark text-white text-center py-4">
+    <h1>Meu Blog</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="container my-4">
+    <h2 class="mb-4">Últimas Postagens</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">As maiores dúvidas sobre a área de Programação</h3>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem possimus quas, doloribus reiciendis qui earum, reprehenderit inventore aspernatur eos nostrum ad ex aperiam vitae pariatur voluptas mollitia? Qui, quam.</p>
+                    <a href="{% url 'details' %}" class="btn btn-primary">Leia mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Seja um desenvolvedor profissional em C#(Not Working)</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusantium debitis maxime eveniet illum unde odio molestiae deleniti ducimus, repudiandae officia cum tempore id doloribus a, quod maiores facere blanditiis.</p>
+                    <a href="post.html?id=2" class="btn btn-primary">Leia mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">A importância de POO na área da programação(Not Working)</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusantium debitis maxime eveniet illum unde odio molestiae deleniti ducimus, repudiandae officia cum tempore id doloribus a, quod maiores facere blanditiis.</p>
+                    <a href="post.html?id=2" class="btn btn-primary">Leia mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Por que todo mundo odeia Java?(Not Working)</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusantium debitis maxime eveniet illum unde odio molestiae deleniti ducimus, repudiandae officia cum tempore id doloribus a, quod maiores facere blanditiis.</p>
+                    <a href="post.html?id=2" class="btn btn-primary">Leia mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer class="bg-dark text-white py-4 text-center">
+    <p>&copy; 2024 Meu Blog. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
