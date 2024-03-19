@@ -8,3 +8,7 @@ def post_list(request):
 def post_details(request):
     post = Post.objects.all()
     return render(request, 'blog/post_details.html', {'post': post})
+
+def about(request):
+    post = Post.objects.all()
+    return render(request, 'blog/about.html', {'post': post})
