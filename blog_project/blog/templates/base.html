@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<header class="bg-dark text-white text-center py-4">
+<header class="bg-dark text-white text-center py-2">
     <h1>My Blog</h1>
 </header>
 
@@ -24,6 +24,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact Us</a>
             </li>
+            <li>
+                <a href="{% url 'login' %}" class="btn btn-primary">Cadastre-se</a>
+            </li>
         </ul>
     </div>
 </nav>
@@ -35,7 +38,8 @@
 </div>
 
 
-<footer class="bg-dark text-white py-4 text-center">
+<footer class="bg-dark text-white py-2 text-center footer fixed-bottom">
+    
     <p>&copy; 2024 My blog. All rights reserved.</p>
 </footer>
 
