@@ -9,6 +9,9 @@ def post_details(request):
     post = Post.objects.all()
     return render(request, 'blog/post_details.html', {'post': post})
 
-def login(request):
+def register(request):
     post = Post.objects.all()
-    return render(request, 'login/login.html', {'post' : post})
+    return render(request, 'login/register.html', {'post' : post})
+
+def users(request):
+    pass
